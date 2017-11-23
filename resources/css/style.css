@@ -1,9 +1,9 @@
-header {
-  border: 1px solid black; /* удалить */
+header {  /* in header part 1 */
+  border-bottom: 1px solid black;
   display: inline-flex;
   align-items: center;
   position: fixed;
- /*  z-index: 1; */   /* удалить */
+  z-index: 1;
   width: 100%;
   height: 80px;
   font-family: Verdana;
@@ -11,12 +11,17 @@ header {
   font-weight: bold;
 }
 
-nav {
-  border: 1px solid black; /* удалить */
+nav span { /* in header part 1 */
+    display: inline-block;
+    padding: 20px 10px;
+
 }
 
-.logo {
-  border: 1px solid black; /* удалить */
+header nav { /* in header part 1 */
+    padding-right: 40px;
+}
+
+.logo { /* in header part 1 */
   display: flex;
   align-items: center;
   flex-grow: 1;
@@ -24,6 +29,10 @@ nav {
 
 }
 
-.logo span {
+.logo span { /* in header part 1 */
   color: MediumAquamarine;
+}
+
+header nav span a { /* in header part 1 */
+    color: black;
 }
