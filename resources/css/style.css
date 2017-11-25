@@ -7,7 +7,7 @@ body { /* delete void under header */
     margin: 0;
 }
 
-header {  /* in header part 1 */
+header {  /* in header part 1 */ /* Hello */
   border-bottom: 1px solid black;
   display: inline-flex;
   align-items: center;
