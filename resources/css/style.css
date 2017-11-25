@@ -3,6 +3,10 @@
   font-size: 17px;
 }
 
+body { /* delete void under header */
+    margin: 0;
+}
+
 header {  /* in header part 1 */
   border-bottom: 1px solid black;
   display: inline-flex;
@@ -15,6 +19,7 @@ header {  /* in header part 1 */
   font-size: 14px;
   font-weight: bold;
   background-color: white;
+  margin: 0;
 }
 
 nav span { /* in header part 1 */
