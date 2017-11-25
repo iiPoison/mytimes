@@ -9,6 +9,7 @@ header {  /* in header part 1 */
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+  background-color: white;
 }
 
 nav span { /* in header part 1 */
@@ -25,7 +26,7 @@ header nav { /* in header part 1 */
   align-items: center;
   flex-grow: 1;
   padding-left: 30px;
-  border: 1px solid black; /*delete*/
+/*  border: 1px solid black; /*delete*/
 }
 
 .logo span { /* in header part 1 */
@@ -51,22 +52,22 @@ header nav span a { /* in header part 1 */
 }
 
 .column.large { /* for main-content */
-  border: 1px solid black; /*delete */
+/*  border: 1px solid black; /*delete */
   width: 630px;
 }
 
 .column.medium { /* for main-content */
-  border: 1px solid black; /*delete */
+/*  border: 1px solid black; /*delete */
   width: 300px;
 }
 
 .column.small { /* for main-content */
-  border: 1px solid black; /*delete */
+  /* border: 1px solid black; /*delete */
   width: 240px;
 }
 
 .main-content div { /* for main-content */
-  border: 1px solid black; /*delete */
+  /* border: 1px solid black; /*delete */
 }
 
 .image-content { /* for img comtaner */
@@ -94,4 +95,22 @@ header nav span a { /* in header part 1 */
 
 .cat-ceo.image-content { /* madium > "Cats in Control-Is It a Thing?" */
         background-image: url(../images/img-story-1.png);
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
+}
+
+.story {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    margin: 10px;
+}
+
+
+.stories .text-content {
+    height: 250px;
 }
